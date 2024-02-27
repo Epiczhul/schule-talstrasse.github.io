@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juragames.net</title>
+    <link rel="icon" href="favicons/7725-img-icon.png" type="image/png">
+    <link rel="stylesheet" href="css/Website-unfertig-Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="headline"><span class="Homepage">Juragames.net</span> Startseite</h1>
+        <div class="navbar-links">
+            <a class="menu-link" href="shop.html">Shop</a>
+            <a class="menu-link button" href="Kontakte.html">Kontakte</a>
+            <a class="menu-link forum" href="Forum.html">Forum</a>
+            <a class="menu-link Team1" href="Teammitglieder.html">Unser Team</a>
+            <a class="menu-link" href="server.html">Server Info</a>
+            <a class="menu-link" href="impressum.html">Impressum</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>&nbsp; &nbsp;</h1>
+        <h1>&nbsp; &nbsp;</h1>
+        <h1>&nbsp; &nbsp;</h1>
+
+        <h2>Juragames.net ist ein Deutscher Minecraft Server f&uuml;r die Java und Bedrock!</h2>
+        <h3>Serveradresse: Juragames.net</h3>
+        
+        <!-- Nachricht an juli: Der Button zum Kopieren der Serveradresse -->
+        <button class="copy-button" onclick="copyServerAddress()">Adresse kopieren</button>
+    </div>
+
+    <div class="footer">
+        &copy; Copyright 2024 Juragames
+    </div>
+
+    <!-- Nachricht an Juli: JavaScript f&uuml;r die Funktion des Kopieren-Buttons -->
+    <script>
+        function copyServerAddress() {
+            const serverAddress = "Juragames.net";
+            navigator.clipboard.writeText(serverAddress).then(function() {
+                alert("Serveradresse wurde kopiert: " + serverAddress);
+            }).catch(function(err) {
+                console.error('Kopieren fehlgeschlagen: ', err);
+            });
+        }
+
+    </script>
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+  	<script src="js/3541-js-main2.js" type="text/javascript"></script>
+  	<script src="js/971-js-main.js" type="text/javascript"></script>
+</body>
+
+</html>
