@@ -73,9 +73,9 @@ body {
 }
 
 .headline {
-    color: white;
+    color: rgb(0, 10, 255);
     font-size: 30px;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    text-shadow: 5px 5px rgb(0, 150, 255);
 }
 
 .Homepage {
